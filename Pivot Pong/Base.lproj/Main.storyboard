@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="dBv-uW-cpY">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -100,6 +99,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="PLAY A PIVOT" id="0p7-Iz-Vlu">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="dU6-Dt-Of8" customClass="AnimatableBarButtonItem" customModule="IBAnimatable">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </barButtonItem>
                         <barButtonItem key="leftBarButtonItem" image="settings" id="BEr-fp-uRO">
                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         </barButtonItem>
@@ -129,7 +131,7 @@
                         <sections>
                             <tableViewSection headerTitle="Pivots available to play" id="aeC-S4-5wb">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="dbz-9o-ZKe">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="dbz-9o-ZKe">
                                         <rect key="frame" x="0.0" y="28" width="375" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dbz-9o-ZKe" id="cLy-Yc-WyZ">
@@ -152,6 +154,9 @@
                                                             <real key="value" value="8"/>
                                                         </userDefinedRuntimeAttribute>
                                                     </userDefinedRuntimeAttributes>
+                                                    <connections>
+                                                        <segue destination="m4Q-sk-fSi" kind="show" id="t8o-8q-A1O"/>
+                                                    </connections>
                                                 </button>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gravatar-pic" translatesAutoresizingMaskIntoConstraints="NO" id="OdA-n1-meE">
                                                     <rect key="frame" x="20" y="8" width="45" height="45"/>
@@ -312,13 +317,13 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jenn Dodd" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ywD-3i-Sel">
-                                                    <rect key="frame" x="75" y="8" width="83.5" height="19.5"/>
+                                                    <rect key="frame" x="75" y="8" width="84" height="20"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                                     <color key="textColor" red="0.090196078430000007" green="0.13725490200000001" blue="0.1647058824" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15 W | 7 L" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vbe-a2-xd5">
-                                                    <rect key="frame" x="75" y="27.5" width="64.5" height="17"/>
+                                                    <rect key="frame" x="75" y="28" width="64" height="17"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" red="0.50980392159999999" green="0.49803921569999998" blue="0.49019607840000001" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -536,7 +541,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mark Macdonald" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="49J-9e-BwF">
-                                                    <rect key="frame" x="75" y="8" width="129" height="19.5"/>
+                                                    <rect key="frame" x="75" y="8" width="129" height="20"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                                     <color key="textColor" red="0.090196078430000007" green="0.13725490200000001" blue="0.1647058824" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -559,7 +564,7 @@
                                                     </userDefinedRuntimeAttributes>
                                                 </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2 W | 9 L" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b7F-TW-fzp">
-                                                    <rect key="frame" x="75" y="27" width="58.5" height="17"/>
+                                                    <rect key="frame" x="75" y="28" width="58" height="17"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" red="0.50980392159999999" green="0.49803921569999998" blue="0.49019607840000001" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -656,16 +661,244 @@
             </objects>
             <point key="canvasLocation" x="1371.5" y="322.5"/>
         </scene>
+        <!--LEADERBOARD-->
+        <scene sceneID="OrL-dP-4IG">
+            <objects>
+                <viewController title="LEADERBOARD" id="iss-WX-Jlo" customClass="DesignableViewController" customModule="IBAnimatable" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BXF-Tm-hpH"/>
+                        <viewControllerLayoutGuide type="bottom" id="Caj-FP-deb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Se6-jc-fkX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MMf-nG-stX">
+                                <rect key="frame" x="0.0" y="93" width="375" height="574"/>
+                                <connections>
+                                    <segue destination="zSE-9K-adN" kind="embed" id="yeA-ho-IuV"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zR3-Nf-jGJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="895.5" y="1061.5"/>
+        </scene>
+        <!--RECORD SCORE-->
+        <scene sceneID="GDM-Eb-0wF">
+            <objects>
+                <viewController title="RECORD SCORE" id="m4Q-sk-fSi" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vQL-ej-G3B"/>
+                        <viewControllerLayoutGuide type="bottom" id="4o4-xu-Tsp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="d6c-Jb-Ybz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EH1-KC-20i">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select who won" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="akQ-YI-fxE" customClass="AnimatableLabel" customModule="IBAnimatable">
+                                        <rect key="frame" x="96.5" y="132" width="181" height="29"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="trophy" translatesAutoresizingMaskIntoConstraints="NO" id="TKJ-RP-HyE" customClass="AnimatableImageView" customModule="IBAnimatable">
+                                        <rect key="frame" x="143" y="69" width="89" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="9eb-9z-ijS"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="josh-lg" translatesAutoresizingMaskIntoConstraints="NO" id="exw-eA-jr5" customClass="AnimatableImageView" customModule="IBAnimatable">
+                                        <rect key="frame" x="49" y="214" width="120" height="120"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="120" id="Cfd-lE-hpj"/>
+                                            <constraint firstAttribute="width" constant="120" id="aoA-iS-tkf"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="4"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="maskType" value="Circle"/>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                                <color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                                <real key="value" value="30"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
+                                                <point key="value" x="0.0" y="4"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                                <real key="value" value="4"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="animationType" value="SlideInLeft"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="damping">
+                                                <real key="value" value="0.90000000000000002"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                                <real key="value" value="0.25"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Josh" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P3N-Pv-5LM" customClass="AnimatableLabel" customModule="IBAnimatable">
+                                        <rect key="frame" x="88" y="342" width="42" height="22"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="animationType" value="FadeIn"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                                <real key="value" value="0.5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4W | 10L" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4OY-JT-iah" customClass="AnimatableLabel" customModule="IBAnimatable">
+                                        <rect key="frame" x="77" y="367" width="65" height="19"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="animationType" value="FadeIn"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                                <real key="value" value="0.5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rtd-2c-Oom">
+                                        <rect key="frame" x="44" y="207" width="130" height="191"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="130" id="Q9D-EH-7ni"/>
+                                            <constraint firstAttribute="height" constant="191" id="p8w-dc-OdO"/>
+                                        </constraints>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alex-lg" translatesAutoresizingMaskIntoConstraints="NO" id="wMF-Tm-mAA" customClass="AnimatableImageView" customModule="IBAnimatable">
+                                        <rect key="frame" x="206" y="214" width="120" height="120"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="120" id="Jz2-jP-Wja"/>
+                                            <constraint firstAttribute="height" constant="120" id="R1C-Aq-JiY"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="4"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="maskType" value="Circle"/>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                                <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                                <real key="value" value="4"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                                <real key="value" value="30"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
+                                                <point key="value" x="0.0" y="4"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="animationType" value="SlideInRight"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                                <real key="value" value="0.25"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="damping">
+                                                <real key="value" value="0.90000000000000002"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alex" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DrW-Z6-Cdx" customClass="AnimatableLabel" customModule="IBAnimatable">
+                                        <rect key="frame" x="247" y="342" width="38" height="22"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="animationType" value="FadeIn"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                                <real key="value" value="0.5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="10W | 6L" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YpT-Uh-xSf" customClass="AnimatableLabel" customModule="IBAnimatable">
+                                        <rect key="frame" x="234" y="367" width="65" height="20"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="animationType" value="FadeIn"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                                <real key="value" value="0.5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jbF-o9-8zc">
+                                        <rect key="frame" x="201" y="207" width="130" height="191"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="130" id="0iI-nK-i4Z"/>
+                                            <constraint firstAttribute="height" constant="191" id="3Bn-GG-6Bd"/>
+                                        </constraints>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.090196078430000007" green="0.13725490200000001" blue="0.1647058824" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="P3N-Pv-5LM" firstAttribute="top" secondItem="exw-eA-jr5" secondAttribute="bottom" constant="8" id="1LK-st-qlU"/>
+                                    <constraint firstItem="DrW-Z6-Cdx" firstAttribute="top" secondItem="wMF-Tm-mAA" secondAttribute="bottom" constant="8" id="1jh-af-rXU"/>
+                                    <constraint firstItem="4OY-JT-iah" firstAttribute="centerX" secondItem="P3N-Pv-5LM" secondAttribute="centerX" id="1yc-bD-AiD"/>
+                                    <constraint firstItem="TKJ-RP-HyE" firstAttribute="top" secondItem="EH1-KC-20i" secondAttribute="top" constant="69" id="8Jb-gP-hHo"/>
+                                    <constraint firstItem="TKJ-RP-HyE" firstAttribute="centerX" secondItem="EH1-KC-20i" secondAttribute="centerX" id="AyG-KS-jmG"/>
+                                    <constraint firstItem="4OY-JT-iah" firstAttribute="top" secondItem="P3N-Pv-5LM" secondAttribute="bottom" constant="3" id="GEQ-rQ-mbG"/>
+                                    <constraint firstItem="wMF-Tm-mAA" firstAttribute="top" secondItem="akQ-YI-fxE" secondAttribute="bottom" constant="53" id="I8Q-D8-xfl"/>
+                                    <constraint firstItem="Rtd-2c-Oom" firstAttribute="leading" secondItem="EH1-KC-20i" secondAttribute="leading" constant="44" id="K2P-G6-SXd"/>
+                                    <constraint firstItem="YpT-Uh-xSf" firstAttribute="top" secondItem="DrW-Z6-Cdx" secondAttribute="bottom" constant="3" id="MKx-oX-5y0"/>
+                                    <constraint firstItem="akQ-YI-fxE" firstAttribute="top" secondItem="TKJ-RP-HyE" secondAttribute="bottom" constant="13" id="RWa-Zb-qRf"/>
+                                    <constraint firstItem="jbF-o9-8zc" firstAttribute="top" secondItem="akQ-YI-fxE" secondAttribute="bottom" constant="46" id="SoT-Uz-xDC"/>
+                                    <constraint firstItem="akQ-YI-fxE" firstAttribute="centerX" secondItem="EH1-KC-20i" secondAttribute="centerX" id="TKV-TE-mwO"/>
+                                    <constraint firstAttribute="trailing" secondItem="jbF-o9-8zc" secondAttribute="trailing" constant="44" id="Tou-DT-wsc"/>
+                                    <constraint firstItem="exw-eA-jr5" firstAttribute="leading" secondItem="EH1-KC-20i" secondAttribute="leading" constant="49" id="U4u-Nv-Ve1"/>
+                                    <constraint firstItem="YpT-Uh-xSf" firstAttribute="centerX" secondItem="DrW-Z6-Cdx" secondAttribute="centerX" id="dk5-AC-R7q"/>
+                                    <constraint firstItem="DrW-Z6-Cdx" firstAttribute="centerX" secondItem="wMF-Tm-mAA" secondAttribute="centerX" id="f30-KM-4Af"/>
+                                    <constraint firstAttribute="trailing" secondItem="wMF-Tm-mAA" secondAttribute="trailing" constant="49" id="fFV-CE-wiQ"/>
+                                    <constraint firstItem="wMF-Tm-mAA" firstAttribute="leading" secondItem="exw-eA-jr5" secondAttribute="trailing" constant="37" id="fHT-0R-qwP"/>
+                                    <constraint firstItem="Rtd-2c-Oom" firstAttribute="top" secondItem="akQ-YI-fxE" secondAttribute="bottom" constant="46" id="xmj-eY-3CZ"/>
+                                    <constraint firstItem="P3N-Pv-5LM" firstAttribute="centerX" secondItem="exw-eA-jr5" secondAttribute="centerX" id="yhV-8d-aV5"/>
+                                    <constraint firstItem="exw-eA-jr5" firstAttribute="top" secondItem="akQ-YI-fxE" secondAttribute="bottom" constant="53" id="zJJ-uZ-tGp"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="EH1-KC-20i" firstAttribute="leading" secondItem="d6c-Jb-Ybz" secondAttribute="leading" id="02U-1O-RlP"/>
+                            <constraint firstItem="4o4-xu-Tsp" firstAttribute="top" secondItem="EH1-KC-20i" secondAttribute="bottom" id="6rK-rO-aBK"/>
+                            <constraint firstAttribute="trailing" secondItem="EH1-KC-20i" secondAttribute="trailing" id="ULW-pq-v6F"/>
+                            <constraint firstItem="EH1-KC-20i" firstAttribute="top" secondItem="vQL-ej-G3B" secondAttribute="bottom" id="bmy-tY-2vh"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="26b-nK-Lg5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1812.5" y="322.5"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="YHE-3x-i15">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="oWQ-Kd-bB5" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dBv-uW-cpY" sceneMemberID="viewController">
                     <toolbarItems/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="3gI-BT-5eG" customClass="DesignableNavigationBar" customModule="IBAnimatable">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="barTintColor" red="0.090196078430000007" green="0.13725490200000001" blue="0.1647058824" alpha="1" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <fontDescription key="fontDescription" type="system" weight="black" pointSize="17"/>
@@ -681,22 +914,57 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="gUC-1q-n5n"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oWQ-Kd-bB5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="390" y="323"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="UiD-0X-Xtp">
+            <objects>
+                <viewController id="JZT-0a-nzP" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WrI-tN-57k"/>
+                        <viewControllerLayoutGuide type="bottom" id="85u-Aa-oAi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OAf-dl-VV8">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jDd-UL-QfV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7qh-bK-HFh">
+            <objects>
+                <viewController id="zSE-9K-adN" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Vcu-M7-8xi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="574"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="taz-f2-9Zd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1354.5" y="1062"/>
         </scene>
     </scenes>
     <resources>
         <image name="IMG_0585" width="45" height="45"/>
+        <image name="alex-lg" width="120" height="120"/>
         <image name="cookie" width="45" height="45"/>
         <image name="daphne" width="45" height="45"/>
         <image name="francisco" width="45" height="45"/>
         <image name="gravatar-pic" width="45" height="45"/>
         <image name="jenn" width="45" height="45"/>
         <image name="josh" width="45" height="45"/>
+        <image name="josh-lg" width="120" height="120"/>
         <image name="linda" width="45" height="45"/>
         <image name="mark" width="45" height="45"/>
         <image name="phil" width="45" height="45"/>
         <image name="rankings" width="21" height="14"/>
         <image name="settings" width="18" height="18"/>
+        <image name="trophy" width="89" height="89"/>
     </resources>
 </document>

@@ -11,11 +11,11 @@
 		D490B41A1C6EB07800A3D64A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D490B4191C6EB07800A3D64A /* AppDelegate.swift */; };
 		D490B41C1C6EB07800A3D64A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D490B41B1C6EB07800A3D64A /* ViewController.swift */; };
 		D490B41F1C6EB07800A3D64A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D490B41D1C6EB07800A3D64A /* Main.storyboard */; };
-		D490B4211C6EB07800A3D64A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D490B4201C6EB07800A3D64A /* Assets.xcassets */; };
 		D490B4241C6EB07800A3D64A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D490B4221C6EB07800A3D64A /* LaunchScreen.storyboard */; };
 		D490B42F1C6EB07800A3D64A /* Pivot_PongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D490B42E1C6EB07800A3D64A /* Pivot_PongTests.swift */; };
 		D490B43A1C6EB07800A3D64A /* Pivot_PongUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D490B4391C6EB07800A3D64A /* Pivot_PongUITests.swift */; };
 		D490B4481C6ECDA800A3D64A /* IBAnimatable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D490B4471C6ECDA800A3D64A /* IBAnimatable.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		D490B44A1C6FD3E300A3D64A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D490B4491C6FD3E300A3D64A /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +43,6 @@
 		D490B4191C6EB07800A3D64A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D490B41B1C6EB07800A3D64A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D490B41E1C6EB07800A3D64A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D490B4201C6EB07800A3D64A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D490B4231C6EB07800A3D64A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D490B4251C6EB07800A3D64A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D490B42A1C6EB07800A3D64A /* Pivot PongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pivot PongTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +52,7 @@
 		D490B4391C6EB07800A3D64A /* Pivot_PongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pivot_PongUITests.swift; sourceTree = "<group>"; };
 		D490B43B1C6EB07800A3D64A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D490B4471C6ECDA800A3D64A /* IBAnimatable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IBAnimatable.framework; path = "Pods/../build/Debug-iphoneos/IBAnimatable.framework"; sourceTree = "<group>"; };
+		D490B4491C6FD3E300A3D64A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +128,7 @@
 				D490B4191C6EB07800A3D64A /* AppDelegate.swift */,
 				D490B41B1C6EB07800A3D64A /* ViewController.swift */,
 				D490B41D1C6EB07800A3D64A /* Main.storyboard */,
-				D490B4201C6EB07800A3D64A /* Assets.xcassets */,
+				D490B4491C6FD3E300A3D64A /* Assets.xcassets */,
 				D490B4221C6EB07800A3D64A /* LaunchScreen.storyboard */,
 				D490B4251C6EB07800A3D64A /* Info.plist */,
 			);
@@ -224,6 +224,7 @@
 				TargetAttributes = {
 					D490B4151C6EB07800A3D64A = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = J83SMM56F2;
 					};
 					D490B4291C6EB07800A3D64A = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -261,7 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D490B4241C6EB07800A3D64A /* LaunchScreen.storyboard in Resources */,
-				D490B4211C6EB07800A3D64A /* Assets.xcassets in Resources */,
+				D490B44A1C6FD3E300A3D64A /* Assets.xcassets in Resources */,
 				D490B41F1C6EB07800A3D64A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
