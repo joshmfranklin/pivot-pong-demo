@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98B6B2C0E802CC28671790DD /* Pods_Pivot_Pong.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66058F9B4850E9BEF8A8FF8C /* Pods_Pivot_Pong.framework */; };
 		D490B41A1C6EB07800A3D64A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D490B4191C6EB07800A3D64A /* AppDelegate.swift */; };
 		D490B41C1C6EB07800A3D64A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D490B41B1C6EB07800A3D64A /* ViewController.swift */; };
 		D490B41F1C6EB07800A3D64A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D490B41D1C6EB07800A3D64A /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		D490B4241C6EB07800A3D64A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D490B4221C6EB07800A3D64A /* LaunchScreen.storyboard */; };
 		D490B42F1C6EB07800A3D64A /* Pivot_PongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D490B42E1C6EB07800A3D64A /* Pivot_PongTests.swift */; };
 		D490B43A1C6EB07800A3D64A /* Pivot_PongUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D490B4391C6EB07800A3D64A /* Pivot_PongUITests.swift */; };
+		D490B4481C6ECDA800A3D64A /* IBAnimatable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D490B4471C6ECDA800A3D64A /* IBAnimatable.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F3CD2BA4E2BC0453E32828F /* Pods-Pivot Pong.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pivot Pong.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pivot Pong/Pods-Pivot Pong.release.xcconfig"; sourceTree = "<group>"; };
+		66058F9B4850E9BEF8A8FF8C /* Pods_Pivot_Pong.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pivot_Pong.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FDC4B1AF7ED13276D2C580E /* Pods-Pivot Pong.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pivot Pong.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pivot Pong/Pods-Pivot Pong.debug.xcconfig"; sourceTree = "<group>"; };
 		D490B4161C6EB07800A3D64A /* Pivot Pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pivot Pong.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D490B4191C6EB07800A3D64A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D490B41B1C6EB07800A3D64A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		D490B4351C6EB07800A3D64A /* Pivot PongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pivot PongUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D490B4391C6EB07800A3D64A /* Pivot_PongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pivot_PongUITests.swift; sourceTree = "<group>"; };
 		D490B43B1C6EB07800A3D64A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D490B4471C6ECDA800A3D64A /* IBAnimatable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IBAnimatable.framework; path = "Pods/../build/Debug-iphoneos/IBAnimatable.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D490B4481C6ECDA800A3D64A /* IBAnimatable.framework in Frameworks */,
+				98B6B2C0E802CC28671790DD /* Pods_Pivot_Pong.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +82,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		68F4C9383660F1A1E675AEC7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FDC4B1AF7ED13276D2C580E /* Pods-Pivot Pong.debug.xcconfig */,
+				0F3CD2BA4E2BC0453E32828F /* Pods-Pivot Pong.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6B5D2EFA0B4D53DEE1714015 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D490B4471C6ECDA800A3D64A /* IBAnimatable.framework */,
+				66058F9B4850E9BEF8A8FF8C /* Pods_Pivot_Pong.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D490B40D1C6EB07800A3D64A = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +107,8 @@
 				D490B42D1C6EB07800A3D64A /* Pivot PongTests */,
 				D490B4381C6EB07800A3D64A /* Pivot PongUITests */,
 				D490B4171C6EB07800A3D64A /* Products */,
+				68F4C9383660F1A1E675AEC7 /* Pods */,
+				6B5D2EFA0B4D53DEE1714015 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +160,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D490B43E1C6EB07800A3D64A /* Build configuration list for PBXNativeTarget "Pivot Pong" */;
 			buildPhases = (
+				50F1570D07CEA2C70B31468F /* Check Pods Manifest.lock */,
 				D490B4121C6EB07800A3D64A /* Sources */,
 				D490B4131C6EB07800A3D64A /* Frameworks */,
 				D490B4141C6EB07800A3D64A /* Resources */,
+				39BC52A54C29B229A072B91C /* Embed Pods Frameworks */,
+				AE66D30726A02FE9D23A9238 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,7 +224,6 @@
 				TargetAttributes = {
 					D490B4151C6EB07800A3D64A = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = J83SMM56F2;
 					};
 					D490B4291C6EB07800A3D64A = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -251,6 +281,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39BC52A54C29B229A072B91C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pivot Pong/Pods-Pivot Pong-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50F1570D07CEA2C70B31468F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AE66D30726A02FE9D23A9238 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pivot Pong/Pods-Pivot Pong-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D490B4121C6EB07800A3D64A /* Sources */ = {
@@ -396,11 +474,17 @@
 		};
 		D490B43F1C6EB07800A3D64A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FDC4B1AF7ED13276D2C580E /* Pods-Pivot Pong.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = "Pivot Pong/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Franklin.Pivot-Pong";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -410,11 +494,17 @@
 		};
 		D490B4401C6EB07800A3D64A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F3CD2BA4E2BC0453E32828F /* Pods-Pivot Pong.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = "Pivot Pong/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Franklin.Pivot-Pong";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -489,6 +579,7 @@
 				D490B4401C6EB07800A3D64A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D490B4411C6EB07800A3D64A /* Build configuration list for PBXNativeTarget "Pivot PongTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +588,7 @@
 				D490B4431C6EB07800A3D64A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D490B4441C6EB07800A3D64A /* Build configuration list for PBXNativeTarget "Pivot PongUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +597,7 @@
 				D490B4461C6EB07800A3D64A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

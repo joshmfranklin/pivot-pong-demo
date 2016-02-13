@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00F9493E5CAE602C9132C205D909AEB3 /* AnimatableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F8EF23FF533F00F5885C06FB96D760 /* AnimatableButton.swift */; };
+		058A757BC0FC123503B1E7EC2154792D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		142F91A341B38096F096DF3563DC1F15 /* IBAnimatable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B24894B9FEF33BCABAFDD25EEE982D21 /* IBAnimatable-dummy.m */; };
+		14FC99325064287B221068A457E61516 /* Pods-Pivot Pong-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA8085BA9DEEBCDDBF4967594C3CFC7 /* Pods-Pivot Pong-dummy.m */; };
+		1B06A3854EFEA2FE30AF9DD00A56B2E4 /* AnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC85A5289ACA3C2980E5462680C6C59 /* AnimationType.swift */; };
+		270D9CA52AD1623E52F80ACD53744219 /* BarButtonItemDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCE05A0CD4DBCDBACC286891D3677B3 /* BarButtonItemDesignable.swift */; };
+		27CEAACDCF3D2A126568219E9205D04C /* CheckBoxDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DA2006E5D154A6DD2BCB436AAB2931 /* CheckBoxDesignable.swift */; };
+		30F7110D95A2B530FC5065DB9C49B1F3 /* PlaceholderDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE93EEA53A574364C1C44C73EF484EE /* PlaceholderDesignable.swift */; };
+		348B7B7B649AB0F7478ADE5B2F80B172 /* AnimatableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222C386127EC98809CA3F799CEF2A909 /* AnimatableLabel.swift */; };
+		3577EF5B525BAFB237E169187C86660F /* AnimatableCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DC1631FA71408F3754985D2C360DDA /* AnimatableCheckBox.swift */; };
+		3EEDA2B212A9B51722084A86ADEDBD17 /* StatusBarDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6541CFABF00D963C28D24D4618C75293 /* StatusBarDesignable.swift */; };
+		4A27319708DE480F77B22F4B15DEAA2A /* BlurDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ECF79A4E75970FBE2071CECC421DD6 /* BlurDesignable.swift */; };
+		4BD4A122403DCB370B643AA15126B880 /* AnimatableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E18E7C611E534424802A31109D42E79 /* AnimatableTextView.swift */; };
+		4E9CC0EDA0F8238FD696CE1762FFCE8F /* RootWindowDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55FE2F668A5A84670EC88BA2930822B /* RootWindowDesignable.swift */; };
+		50754B13587DE3A35865718B8276D9DF /* AnimatableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0741A171392586A09BB36438FB7A3922 /* AnimatableView.swift */; };
+		5593963D20404311773D31BC946A3AFF /* GradientDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77ECCB31392F6BE1C5E544BD3F8E86D /* GradientDesignable.swift */; };
+		6A1F68E8784BA3B76A9D6DC95801CEFE /* ShadowDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289502D6402CF9E39627EDBB10528507 /* ShadowDesignable.swift */; };
+		6D250F4D9971236CA2E7865402E5C156 /* AnimatableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FDB49604A9C6ED0FD5DEEE7A568CDD /* AnimatableTextField.swift */; };
+		7D7F7EF29A4D014AF90A034669FEED45 /* MaskType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1513671D2260D8A58C1EF567368EE2A /* MaskType.swift */; };
+		7F3AC975AFB8878DAF31F8B4ECEB8531 /* IBAnimatable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E73D82620900FF01DFA2DDD83340D63 /* IBAnimatable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83FFAA336B6C0846C5FE46D04EFFE0CC /* BorderSide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A29DD359BF8FDF41BB26454B1CEEFD2 /* BorderSide.swift */; };
+		87FBCB883A75C4CCCC890FD972A35BC5 /* ViewControllerDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6896D744302582F2A28069340208B /* ViewControllerDesignable.swift */; };
+		8C64B0E0D43268375B6063E6CE61D9F0 /* CornerDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9D3D41DE12C52D4E1BD99E8661A82C /* CornerDesignable.swift */; };
+		97D6B2964B9F9B49363C9C918F3C661E /* GradientStartPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6269E314E010E54AD8BA3F05534D1C32 /* GradientStartPoint.swift */; };
+		9E1CF4E3081557611093790F79B5352C /* BorderDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6190242F4F8FB0196FCED9C8F00AF05B /* BorderDesignable.swift */; };
+		9E20FECD56D0BFE3CE58AA18DCBDBEFC /* AnimatableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4457E28F2C47ED42625D6466FB683BE0 /* AnimatableTableViewCell.swift */; };
+		A0DB8DA19A55DBD03E187BFA67B869CF /* RotationDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B4AA1FB701292BB32FDFC9A626ED5F /* RotationDesignable.swift */; };
+		A215F5690F46A3EBC9C9A8A7B888C2E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		A2250D40BFDB42A49998211F7974250E /* Pods-Pivot Pong-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5643B7DDA559A0C545EE98DBAF40B32A /* Pods-Pivot Pong-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3D7386969674EE15FB8D883F1560AA6 /* SideImageDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B95A00C9EA1F720E85D7B7689275BC /* SideImageDesignable.swift */; };
+		A419B8A329A2E735345F1A7B360844C6 /* AnimatableTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5778F2C3A2E72A8E8C0A733F055B2446 /* AnimatableTableView.swift */; };
+		A601E3000991A997F06607ABD8C47248 /* TintDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7658DC774B922EFCA82324FCF80070 /* TintDesignable.swift */; };
+		B232FEDFB33AA28B2BC771208417FDDF /* BlurEffectStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86578A4C6B02F230B3F3B384582E326B /* BlurEffectStyle.swift */; };
+		BA3489384264D3D6A46FD262205BE2E9 /* AnimatableStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05535C5934B1BA57219CFAA678D498C2 /* AnimatableStackView.swift */; };
+		BB5689241B6F7DE030677A323359C212 /* FillDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0009CEC31A33C18D3135BC894CE97DB /* FillDesignable.swift */; };
+		C50656AD593D11B1CBB5B642E46C0DE1 /* MaskDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440B14FE4CD22FE0BFEBA62F173CFD7E /* MaskDesignable.swift */; };
+		CA0F3AE8593C686F9CA2393C29C0F780 /* UIViewController+UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1647A91F65AB8119A95530EA8361B840 /* UIViewController+UnwindSegue.swift */; };
+		CD3920841BD962238D3484752412504D /* TableViewCellDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E885EFD68D23569CFA9EB9EDE7877CB /* TableViewCellDesignable.swift */; };
+		D15B4E7491E0778E1DD1BEAF19CCC8C4 /* PaddingDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D6BC6868A6FEF201FF310917B5408B /* PaddingDesignable.swift */; };
+		D197084728EFE2B5AC0D6B7BCC20CE18 /* DesignableGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5926C77857E5537ABA8EF570A854CA6B /* DesignableGradientView.swift */; };
+		D5BF2F6BDD670D642A78C806F00BE7C7 /* Animatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0878FD1FF04FD24B6A815559D8DEFD /* Animatable.swift */; };
+		E19C095F82A27DDE103DF2C7C7E33A0F /* NavigationBarDesginable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45FDDB079D9CD3ABFCA82DE56BFF223 /* NavigationBarDesginable.swift */; };
+		E97957CC036CA596CC197E9FE669DD87 /* DesignableNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB445A9861E3B1C4D55E186ABD47651B /* DesignableNavigationBar.swift */; };
+		EDC75945CF8F317398FB6FBF4A141139 /* AnimatableBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F455D7BE573AF79602A205EFC968B9F7 /* AnimatableBarButtonItem.swift */; };
+		F3986EEE293DFA830728F71B35863798 /* AnimatableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D053FCEDEDE725DDE4C73627B17B2DD /* AnimatableImageView.swift */; };
+		FBE79A48EDA831426C0E2A925BFA926F /* DesignableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598DC26D4BABC868AC4FF14320B8ADD9 /* DesignableViewController.swift */; };
+		FFD6EDFFDD2B472A8109ACACECE89DBE /* DismissSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31222EE059A6F8EA77320202E277BD85 /* DismissSegue.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCAD383DBA8C09F585D651053A609240 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14FDC603CA0063BDA3DC03E29419AB93;
+			remoteInfo = IBAnimatable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		027A0C54BAAA3F3BF1493F12CF520344 /* IBAnimatable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IBAnimatable-prefix.pch"; sourceTree = "<group>"; };
+		033901F2A66AABA39219578C1B493970 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05535C5934B1BA57219CFAA678D498C2 /* AnimatableStackView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatableStackView.swift; path = IBAnimatable/AnimatableStackView.swift; sourceTree = "<group>"; };
+		0741A171392586A09BB36438FB7A3922 /* AnimatableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatableView.swift; path = IBAnimatable/AnimatableView.swift; sourceTree = "<group>"; };
+		0D053FCEDEDE725DDE4C73627B17B2DD /* AnimatableImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatableImageView.swift; path = IBAnimatable/AnimatableImageView.swift; sourceTree = "<group>"; };
+		0F910807A43E360BAA2516DA4066339C /* IBAnimatable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IBAnimatable.xcconfig; sourceTree = "<group>"; };
+		0F9D3D41DE12C52D4E1BD99E8661A82C /* CornerDesignable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CornerDesignable.swift; path = IBAnimatable/CornerDesignable.swift; sourceTree = "<group>"; };
+		1647A91F65AB8119A95530EA8361B840 /* UIViewController+UnwindSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+UnwindSegue.swift"; path = "IBAnimatable/UIViewController+UnwindSegue.swift"; sourceTree = "<group>"; };
+		1AE93EEA53A574364C1C44C73EF484EE /* PlaceholderDesignable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlaceholderDesignable.swift; path = IBAnimatable/PlaceholderDesignable.swift; sourceTree = "<group>"; };
+		1D29E727CD360CCD6D91153330758534 /* Pods-Pivot Pong-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pivot Pong-acknowledgements.plist"; sourceTree = "<group>"; };
+		1E18E7C611E534424802A31109D42E79 /* AnimatableTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatableTextView.swift; path = IBAnimatable/AnimatableTextView.swift; sourceTree = "<group>"; };
+		1E885EFD68D23569CFA9EB9EDE7877CB /* TableViewCellDesignable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableViewCellDesignable.swift; path = IBAnimatable/TableViewCellDesignable.swift; sourceTree = "<group>"; };
+		222C386127EC98809CA3F799CEF2A909 /* AnimatableLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatableLabel.swift; path = IBAnimatable/AnimatableLabel.swift; sourceTree = "<group>"; };
+		26FDB49604A9C6ED0FD5DEEE7A568CDD /* AnimatableTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatableTextField.swift; path = IBAnimatable/AnimatableTextField.swift; sourceTree = "<group>"; };
+		289502D6402CF9E39627EDBB10528507 /* ShadowDesignable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShadowDesignable.swift; path = IBAnimatable/ShadowDesignable.swift; sourceTree = "<group>"; };
+		2E73D82620900FF01DFA2DDD83340D63 /* IBAnimatable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IBAnimatable-umbrella.h"; sourceTree = "<group>"; };
+		31222EE059A6F8EA77320202E277BD85 /* DismissSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DismissSegue.swift; path = IBAnimatable/DismissSegue.swift; sourceTree = "<group>"; };
+		34DC1631FA71408F3754985D2C360DDA /* AnimatableCheckBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatableCheckBox.swift; path = IBAnimatable/AnimatableCheckBox.swift; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3FA8085BA9DEEBCDDBF4967594C3CFC7 /* Pods-Pivot Pong-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pivot Pong-dummy.m"; sourceTree = "<group>"; };
+		440B14FE4CD22FE0BFEBA62F173CFD7E /* MaskDesignable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaskDesignable.swift; path = IBAnimatable/MaskDesignable.swift; sourceTree = "<group>"; };
+		4457E28F2C47ED42625D6466FB683BE0 /* AnimatableTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatableTableViewCell.swift; path = IBAnimatable/AnimatableTableViewCell.swift; sourceTree = "<group>"; };
+		47ECF79A4E75970FBE2071CECC421DD6 /* BlurDesignable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlurDesignable.swift; path = IBAnimatable/BlurDesignable.swift; sourceTree = "<group>"; };
+		4A29DD359BF8FDF41BB26454B1CEEFD2 /* BorderSide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BorderSide.swift; path = IBAnimatable/BorderSide.swift; sourceTree = "<group>"; };
+		4DFCA2F7E8692CFA34FC0D8B21F6D403 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EC85A5289ACA3C2980E5462680C6C59 /* AnimationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationType.swift; path = IBAnimatable/AnimationType.swift; sourceTree = "<group>"; };
+		51F8EF23FF533F00F5885C06FB96D760 /* AnimatableButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatableButton.swift; path = IBAnimatable/AnimatableButton.swift; sourceTree = "<group>"; };
+		5643B7DDA559A0C545EE98DBAF40B32A /* Pods-Pivot Pong-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pivot Pong-umbrella.h"; sourceTree = "<group>"; };
+		5778F2C3A2E72A8E8C0A733F055B2446 /* AnimatableTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatableTableView.swift; path = IBAnimatable/AnimatableTableView.swift; sourceTree = "<group>"; };
+		5926C77857E5537ABA8EF570A854CA6B /* DesignableGradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableGradientView.swift; path = IBAnimatable/DesignableGradientView.swift; sourceTree = "<group>"; };
+		598DC26D4BABC868AC4FF14320B8ADD9 /* DesignableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableViewController.swift; path = IBAnimatable/DesignableViewController.swift; sourceTree = "<group>"; };
+		6190242F4F8FB0196FCED9C8F00AF05B /* BorderDesignable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BorderDesignable.swift; path = IBAnimatable/BorderDesignable.swift; sourceTree = "<group>"; };
+		6269E314E010E54AD8BA3F05534D1C32 /* GradientStartPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientStartPoint.swift; path = IBAnimatable/GradientStartPoint.swift; sourceTree = "<group>"; };
+		6541CFABF00D963C28D24D4618C75293 /* StatusBarDesignable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StatusBarDesignable.swift; path = IBAnimatable/StatusBarDesignable.swift; sourceTree = "<group>"; };
+		67D80B306A286F0BD14AA593A92022B1 /* Pods-Pivot Pong.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pivot Pong.debug.xcconfig"; sourceTree = "<group>"; };
+		6D7658DC774B922EFCA82324FCF80070 /* TintDesignable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TintDesignable.swift; path = IBAnimatable/TintDesignable.swift; sourceTree = "<group>"; };
+		6E0A4A721FD8B1D45F503DD52EB5F7B3 /* IBAnimatable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = IBAnimatable.modulemap; sourceTree = "<group>"; };
+		7245798CB1D1A855CE4FA9D036756B11 /* Pods-Pivot Pong-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pivot Pong-resources.sh"; sourceTree = "<group>"; };
+		86578A4C6B02F230B3F3B384582E326B /* BlurEffectStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlurEffectStyle.swift; path = IBAnimatable/BlurEffectStyle.swift; sourceTree = "<group>"; };
+		87B4AA1FB701292BB32FDFC9A626ED5F /* RotationDesignable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RotationDesignable.swift; path = IBAnimatable/RotationDesignable.swift; sourceTree = "<group>"; };
+		95D6BC6868A6FEF201FF310917B5408B /* PaddingDesignable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaddingDesignable.swift; path = IBAnimatable/PaddingDesignable.swift; sourceTree = "<group>"; };
+		9623BB6B57F6F31FB65476D6D3A1763D /* Pods-Pivot Pong.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Pivot Pong.modulemap"; sourceTree = "<group>"; };
+		9AD6896D744302582F2A28069340208B /* ViewControllerDesignable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewControllerDesignable.swift; path = IBAnimatable/ViewControllerDesignable.swift; sourceTree = "<group>"; };
+		9DCE05A0CD4DBCDBACC286891D3677B3 /* BarButtonItemDesignable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarButtonItemDesignable.swift; path = IBAnimatable/BarButtonItemDesignable.swift; sourceTree = "<group>"; };
+		A5DA2006E5D154A6DD2BCB436AAB2931 /* CheckBoxDesignable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckBoxDesignable.swift; path = IBAnimatable/CheckBoxDesignable.swift; sourceTree = "<group>"; };
+		AA2952A77C755B237BEF2B79EB96D1A9 /* Pods_Pivot_Pong.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pivot_Pong.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B06A015D8AE973A2343774349C3EC13B /* Pods-Pivot Pong-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pivot Pong-frameworks.sh"; sourceTree = "<group>"; };
+		B0B95A00C9EA1F720E85D7B7689275BC /* SideImageDesignable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideImageDesignable.swift; path = IBAnimatable/SideImageDesignable.swift; sourceTree = "<group>"; };
+		B24894B9FEF33BCABAFDD25EEE982D21 /* IBAnimatable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IBAnimatable-dummy.m"; sourceTree = "<group>"; };
+		B55FE2F668A5A84670EC88BA2930822B /* RootWindowDesignable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RootWindowDesignable.swift; path = IBAnimatable/RootWindowDesignable.swift; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C3017A53A920E2532218EED94042F4AB /* Pods-Pivot Pong.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pivot Pong.release.xcconfig"; sourceTree = "<group>"; };
+		C77ECCB31392F6BE1C5E544BD3F8E86D /* GradientDesignable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientDesignable.swift; path = IBAnimatable/GradientDesignable.swift; sourceTree = "<group>"; };
+		CB445A9861E3B1C4D55E186ABD47651B /* DesignableNavigationBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableNavigationBar.swift; path = IBAnimatable/DesignableNavigationBar.swift; sourceTree = "<group>"; };
+		D222A8D0D99B30A6B4F91D49A396F2C1 /* Pods-Pivot Pong-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pivot Pong-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D45FDDB079D9CD3ABFCA82DE56BFF223 /* NavigationBarDesginable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationBarDesginable.swift; path = IBAnimatable/NavigationBarDesginable.swift; sourceTree = "<group>"; };
+		E1513671D2260D8A58C1EF567368EE2A /* MaskType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaskType.swift; path = IBAnimatable/MaskType.swift; sourceTree = "<group>"; };
+		EC0878FD1FF04FD24B6A815559D8DEFD /* Animatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animatable.swift; path = IBAnimatable/Animatable.swift; sourceTree = "<group>"; };
+		EC630EE7A3BA760677569FFF7BEC35D6 /* IBAnimatable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IBAnimatable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0009CEC31A33C18D3135BC894CE97DB /* FillDesignable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FillDesignable.swift; path = IBAnimatable/FillDesignable.swift; sourceTree = "<group>"; };
+		F455D7BE573AF79602A205EFC968B9F7 /* AnimatableBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatableBarButtonItem.swift; path = IBAnimatable/AnimatableBarButtonItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		177DE0B9C61102F5F92A21D6F3479345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A215F5690F46A3EBC9C9A8A7B888C2E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C542C336BBDA7A0CB3246B2815271370 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058A757BC0FC123503B1E7EC2154792D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54899CD0721B36BB3281F6D8DE674EA7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE0986738AA025ADF9BBEE1A72ECC564 /* Pods-Pivot Pong */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A02986D241CCD58AEC3D10258AB805A3 /* Pods */,
+				CB0623B22C98A45B860E49FCAF42F3D2 /* Products */,
+				54899CD0721B36BB3281F6D8DE674EA7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A02986D241CCD58AEC3D10258AB805A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC6C53125BFE1F69351BD86CEEA0B1F8 /* IBAnimatable */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC6C53125BFE1F69351BD86CEEA0B1F8 /* IBAnimatable */ = {
+			isa = PBXGroup;
+			children = (
+				EC0878FD1FF04FD24B6A815559D8DEFD /* Animatable.swift */,
+				F455D7BE573AF79602A205EFC968B9F7 /* AnimatableBarButtonItem.swift */,
+				51F8EF23FF533F00F5885C06FB96D760 /* AnimatableButton.swift */,
+				34DC1631FA71408F3754985D2C360DDA /* AnimatableCheckBox.swift */,
+				0D053FCEDEDE725DDE4C73627B17B2DD /* AnimatableImageView.swift */,
+				222C386127EC98809CA3F799CEF2A909 /* AnimatableLabel.swift */,
+				05535C5934B1BA57219CFAA678D498C2 /* AnimatableStackView.swift */,
+				5778F2C3A2E72A8E8C0A733F055B2446 /* AnimatableTableView.swift */,
+				4457E28F2C47ED42625D6466FB683BE0 /* AnimatableTableViewCell.swift */,
+				26FDB49604A9C6ED0FD5DEEE7A568CDD /* AnimatableTextField.swift */,
+				1E18E7C611E534424802A31109D42E79 /* AnimatableTextView.swift */,
+				0741A171392586A09BB36438FB7A3922 /* AnimatableView.swift */,
+				4EC85A5289ACA3C2980E5462680C6C59 /* AnimationType.swift */,
+				9DCE05A0CD4DBCDBACC286891D3677B3 /* BarButtonItemDesignable.swift */,
+				47ECF79A4E75970FBE2071CECC421DD6 /* BlurDesignable.swift */,
+				86578A4C6B02F230B3F3B384582E326B /* BlurEffectStyle.swift */,
+				6190242F4F8FB0196FCED9C8F00AF05B /* BorderDesignable.swift */,
+				4A29DD359BF8FDF41BB26454B1CEEFD2 /* BorderSide.swift */,
+				A5DA2006E5D154A6DD2BCB436AAB2931 /* CheckBoxDesignable.swift */,
+				0F9D3D41DE12C52D4E1BD99E8661A82C /* CornerDesignable.swift */,
+				5926C77857E5537ABA8EF570A854CA6B /* DesignableGradientView.swift */,
+				CB445A9861E3B1C4D55E186ABD47651B /* DesignableNavigationBar.swift */,
+				598DC26D4BABC868AC4FF14320B8ADD9 /* DesignableViewController.swift */,
+				31222EE059A6F8EA77320202E277BD85 /* DismissSegue.swift */,
+				F0009CEC31A33C18D3135BC894CE97DB /* FillDesignable.swift */,
+				C77ECCB31392F6BE1C5E544BD3F8E86D /* GradientDesignable.swift */,
+				6269E314E010E54AD8BA3F05534D1C32 /* GradientStartPoint.swift */,
+				440B14FE4CD22FE0BFEBA62F173CFD7E /* MaskDesignable.swift */,
+				E1513671D2260D8A58C1EF567368EE2A /* MaskType.swift */,
+				D45FDDB079D9CD3ABFCA82DE56BFF223 /* NavigationBarDesginable.swift */,
+				95D6BC6868A6FEF201FF310917B5408B /* PaddingDesignable.swift */,
+				1AE93EEA53A574364C1C44C73EF484EE /* PlaceholderDesignable.swift */,
+				B55FE2F668A5A84670EC88BA2930822B /* RootWindowDesignable.swift */,
+				87B4AA1FB701292BB32FDFC9A626ED5F /* RotationDesignable.swift */,
+				289502D6402CF9E39627EDBB10528507 /* ShadowDesignable.swift */,
+				B0B95A00C9EA1F720E85D7B7689275BC /* SideImageDesignable.swift */,
+				6541CFABF00D963C28D24D4618C75293 /* StatusBarDesignable.swift */,
+				1E885EFD68D23569CFA9EB9EDE7877CB /* TableViewCellDesignable.swift */,
+				6D7658DC774B922EFCA82324FCF80070 /* TintDesignable.swift */,
+				1647A91F65AB8119A95530EA8361B840 /* UIViewController+UnwindSegue.swift */,
+				9AD6896D744302582F2A28069340208B /* ViewControllerDesignable.swift */,
+				E12385031E3F2FF8367F8BB9FC8D7657 /* Support Files */,
+			);
+			path = IBAnimatable;
+			sourceTree = "<group>";
+		};
+		BE0986738AA025ADF9BBEE1A72ECC564 /* Pods-Pivot Pong */ = {
+			isa = PBXGroup;
+			children = (
+				4DFCA2F7E8692CFA34FC0D8B21F6D403 /* Info.plist */,
+				9623BB6B57F6F31FB65476D6D3A1763D /* Pods-Pivot Pong.modulemap */,
+				D222A8D0D99B30A6B4F91D49A396F2C1 /* Pods-Pivot Pong-acknowledgements.markdown */,
+				1D29E727CD360CCD6D91153330758534 /* Pods-Pivot Pong-acknowledgements.plist */,
+				3FA8085BA9DEEBCDDBF4967594C3CFC7 /* Pods-Pivot Pong-dummy.m */,
+				B06A015D8AE973A2343774349C3EC13B /* Pods-Pivot Pong-frameworks.sh */,
+				7245798CB1D1A855CE4FA9D036756B11 /* Pods-Pivot Pong-resources.sh */,
+				5643B7DDA559A0C545EE98DBAF40B32A /* Pods-Pivot Pong-umbrella.h */,
+				67D80B306A286F0BD14AA593A92022B1 /* Pods-Pivot Pong.debug.xcconfig */,
+				C3017A53A920E2532218EED94042F4AB /* Pods-Pivot Pong.release.xcconfig */,
+			);
+			name = "Pods-Pivot Pong";
+			path = "Target Support Files/Pods-Pivot Pong";
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CB0623B22C98A45B860E49FCAF42F3D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC630EE7A3BA760677569FFF7BEC35D6 /* IBAnimatable.framework */,
+				AA2952A77C755B237BEF2B79EB96D1A9 /* Pods_Pivot_Pong.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E12385031E3F2FF8367F8BB9FC8D7657 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E0A4A721FD8B1D45F503DD52EB5F7B3 /* IBAnimatable.modulemap */,
+				0F910807A43E360BAA2516DA4066339C /* IBAnimatable.xcconfig */,
+				B24894B9FEF33BCABAFDD25EEE982D21 /* IBAnimatable-dummy.m */,
+				027A0C54BAAA3F3BF1493F12CF520344 /* IBAnimatable-prefix.pch */,
+				2E73D82620900FF01DFA2DDD83340D63 /* IBAnimatable-umbrella.h */,
+				033901F2A66AABA39219578C1B493970 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IBAnimatable";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		268D8CAD7B6075F5762699C794F954A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F3AC975AFB8878DAF31F8B4ECEB8531 /* IBAnimatable-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EB1DF72C8D807FD25C900FF7195E767 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2250D40BFDB42A49998211F7974250E /* Pods-Pivot Pong-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		01554A6D07B0574468AD2FA3A3BE5E82 /* Pods-Pivot Pong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40F6D08671A5CDF8EB41CFB5FBA5D19E /* Build configuration list for PBXNativeTarget "Pods-Pivot Pong" */;
+			buildPhases = (
+				3BC93A2C905FF7D2733E8AF3BDDC2945 /* Sources */,
+				177DE0B9C61102F5F92A21D6F3479345 /* Frameworks */,
+				3EB1DF72C8D807FD25C900FF7195E767 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEEEFA105681FA5CB15CC0E190E69164 /* PBXTargetDependency */,
+			);
+			name = "Pods-Pivot Pong";
+			productName = "Pods-Pivot Pong";
+			productReference = AA2952A77C755B237BEF2B79EB96D1A9 /* Pods_Pivot_Pong.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		14FDC603CA0063BDA3DC03E29419AB93 /* IBAnimatable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0259894528080E008EF187BADBBE1F44 /* Build configuration list for PBXNativeTarget "IBAnimatable" */;
+			buildPhases = (
+				4E5EC41924D60E523AB717EC87537FD1 /* Sources */,
+				C542C336BBDA7A0CB3246B2815271370 /* Frameworks */,
+				268D8CAD7B6075F5762699C794F954A6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IBAnimatable;
+			productName = IBAnimatable;
+			productReference = EC630EE7A3BA760677569FFF7BEC35D6 /* IBAnimatable.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CB0623B22C98A45B860E49FCAF42F3D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14FDC603CA0063BDA3DC03E29419AB93 /* IBAnimatable */,
+				01554A6D07B0574468AD2FA3A3BE5E82 /* Pods-Pivot Pong */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BC93A2C905FF7D2733E8AF3BDDC2945 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14FC99325064287B221068A457E61516 /* Pods-Pivot Pong-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E5EC41924D60E523AB717EC87537FD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5BF2F6BDD670D642A78C806F00BE7C7 /* Animatable.swift in Sources */,
+				EDC75945CF8F317398FB6FBF4A141139 /* AnimatableBarButtonItem.swift in Sources */,
+				00F9493E5CAE602C9132C205D909AEB3 /* AnimatableButton.swift in Sources */,
+				3577EF5B525BAFB237E169187C86660F /* AnimatableCheckBox.swift in Sources */,
+				F3986EEE293DFA830728F71B35863798 /* AnimatableImageView.swift in Sources */,
+				348B7B7B649AB0F7478ADE5B2F80B172 /* AnimatableLabel.swift in Sources */,
+				BA3489384264D3D6A46FD262205BE2E9 /* AnimatableStackView.swift in Sources */,
+				A419B8A329A2E735345F1A7B360844C6 /* AnimatableTableView.swift in Sources */,
+				9E20FECD56D0BFE3CE58AA18DCBDBEFC /* AnimatableTableViewCell.swift in Sources */,
+				6D250F4D9971236CA2E7865402E5C156 /* AnimatableTextField.swift in Sources */,
+				4BD4A122403DCB370B643AA15126B880 /* AnimatableTextView.swift in Sources */,
+				50754B13587DE3A35865718B8276D9DF /* AnimatableView.swift in Sources */,
+				1B06A3854EFEA2FE30AF9DD00A56B2E4 /* AnimationType.swift in Sources */,
+				270D9CA52AD1623E52F80ACD53744219 /* BarButtonItemDesignable.swift in Sources */,
+				4A27319708DE480F77B22F4B15DEAA2A /* BlurDesignable.swift in Sources */,
+				B232FEDFB33AA28B2BC771208417FDDF /* BlurEffectStyle.swift in Sources */,
+				9E1CF4E3081557611093790F79B5352C /* BorderDesignable.swift in Sources */,
+				83FFAA336B6C0846C5FE46D04EFFE0CC /* BorderSide.swift in Sources */,
+				27CEAACDCF3D2A126568219E9205D04C /* CheckBoxDesignable.swift in Sources */,
+				8C64B0E0D43268375B6063E6CE61D9F0 /* CornerDesignable.swift in Sources */,
+				D197084728EFE2B5AC0D6B7BCC20CE18 /* DesignableGradientView.swift in Sources */,
+				E97957CC036CA596CC197E9FE669DD87 /* DesignableNavigationBar.swift in Sources */,
+				FBE79A48EDA831426C0E2A925BFA926F /* DesignableViewController.swift in Sources */,
+				FFD6EDFFDD2B472A8109ACACECE89DBE /* DismissSegue.swift in Sources */,
+				BB5689241B6F7DE030677A323359C212 /* FillDesignable.swift in Sources */,
+				5593963D20404311773D31BC946A3AFF /* GradientDesignable.swift in Sources */,
+				97D6B2964B9F9B49363C9C918F3C661E /* GradientStartPoint.swift in Sources */,
+				142F91A341B38096F096DF3563DC1F15 /* IBAnimatable-dummy.m in Sources */,
+				C50656AD593D11B1CBB5B642E46C0DE1 /* MaskDesignable.swift in Sources */,
+				7D7F7EF29A4D014AF90A034669FEED45 /* MaskType.swift in Sources */,
+				E19C095F82A27DDE103DF2C7C7E33A0F /* NavigationBarDesginable.swift in Sources */,
+				D15B4E7491E0778E1DD1BEAF19CCC8C4 /* PaddingDesignable.swift in Sources */,
+				30F7110D95A2B530FC5065DB9C49B1F3 /* PlaceholderDesignable.swift in Sources */,
+				4E9CC0EDA0F8238FD696CE1762FFCE8F /* RootWindowDesignable.swift in Sources */,
+				A0DB8DA19A55DBD03E187BFA67B869CF /* RotationDesignable.swift in Sources */,
+				6A1F68E8784BA3B76A9D6DC95801CEFE /* ShadowDesignable.swift in Sources */,
+				A3D7386969674EE15FB8D883F1560AA6 /* SideImageDesignable.swift in Sources */,
+				3EEDA2B212A9B51722084A86ADEDBD17 /* StatusBarDesignable.swift in Sources */,
+				CD3920841BD962238D3484752412504D /* TableViewCellDesignable.swift in Sources */,
+				A601E3000991A997F06607ABD8C47248 /* TintDesignable.swift in Sources */,
+				CA0F3AE8593C686F9CA2393C29C0F780 /* UIViewController+UnwindSegue.swift in Sources */,
+				87FBCB883A75C4CCCC890FD972A35BC5 /* ViewControllerDesignable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEEEFA105681FA5CB15CC0E190E69164 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IBAnimatable;
+			target = 14FDC603CA0063BDA3DC03E29419AB93 /* IBAnimatable */;
+			targetProxy = DCAD383DBA8C09F585D651053A609240 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0DDB7E8BC67BF242D3CFDCAFFC228940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F910807A43E360BAA2516DA4066339C /* IBAnimatable.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IBAnimatable/IBAnimatable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IBAnimatable/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IBAnimatable/IBAnimatable.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = IBAnimatable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		86A6639219CD3D281E5C9379099640F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3017A53A920E2532218EED94042F4AB /* Pods-Pivot Pong.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Pivot Pong/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pivot Pong/Pods-Pivot Pong.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Pivot_Pong;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8D1534490D941DCA47C62AC4314182AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C5A18280E9321A9268D1C80B7DA43967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF8ED94836ABA082573B9FC974FA2CC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F910807A43E360BAA2516DA4066339C /* IBAnimatable.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IBAnimatable/IBAnimatable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IBAnimatable/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IBAnimatable/IBAnimatable.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = IBAnimatable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA4894013FF611F73F4818C333EDD03D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67D80B306A286F0BD14AA593A92022B1 /* Pods-Pivot Pong.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Pivot Pong/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pivot Pong/Pods-Pivot Pong.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Pivot_Pong;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0259894528080E008EF187BADBBE1F44 /* Build configuration list for PBXNativeTarget "IBAnimatable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DDB7E8BC67BF242D3CFDCAFFC228940 /* Debug */,
+				CF8ED94836ABA082573B9FC974FA2CC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1534490D941DCA47C62AC4314182AF /* Debug */,
+				C5A18280E9321A9268D1C80B7DA43967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40F6D08671A5CDF8EB41CFB5FBA5D19E /* Build configuration list for PBXNativeTarget "Pods-Pivot Pong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA4894013FF611F73F4818C333EDD03D /* Debug */,
+				86A6639219CD3D281E5C9379099640F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
