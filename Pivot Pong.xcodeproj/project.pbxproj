@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D490B41A1C6EB07800A3D64A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D490B4191C6EB07800A3D64A /* AppDelegate.swift */; };
+		D490B41C1C6EB07800A3D64A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D490B41B1C6EB07800A3D64A /* ViewController.swift */; };
+		D490B41F1C6EB07800A3D64A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D490B41D1C6EB07800A3D64A /* Main.storyboard */; };
+		D490B4211C6EB07800A3D64A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D490B4201C6EB07800A3D64A /* Assets.xcassets */; };
+		D490B4241C6EB07800A3D64A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D490B4221C6EB07800A3D64A /* LaunchScreen.storyboard */; };
+		D490B42F1C6EB07800A3D64A /* Pivot_PongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D490B42E1C6EB07800A3D64A /* Pivot_PongTests.swift */; };
+		D490B43A1C6EB07800A3D64A /* Pivot_PongUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D490B4391C6EB07800A3D64A /* Pivot_PongUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D490B42B1C6EB07800A3D64A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D490B40E1C6EB07800A3D64A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D490B4151C6EB07800A3D64A;
+			remoteInfo = "Pivot Pong";
+		};
+		D490B4361C6EB07800A3D64A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D490B40E1C6EB07800A3D64A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D490B4151C6EB07800A3D64A;
+			remoteInfo = "Pivot Pong";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D490B4161C6EB07800A3D64A /* Pivot Pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pivot Pong.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D490B4191C6EB07800A3D64A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D490B41B1C6EB07800A3D64A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D490B41E1C6EB07800A3D64A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D490B4201C6EB07800A3D64A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D490B4231C6EB07800A3D64A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D490B4251C6EB07800A3D64A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D490B42A1C6EB07800A3D64A /* Pivot PongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pivot PongTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D490B42E1C6EB07800A3D64A /* Pivot_PongTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pivot_PongTests.swift; sourceTree = "<group>"; };
+		D490B4301C6EB07800A3D64A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D490B4351C6EB07800A3D64A /* Pivot PongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pivot PongUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D490B4391C6EB07800A3D64A /* Pivot_PongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pivot_PongUITests.swift; sourceTree = "<group>"; };
+		D490B43B1C6EB07800A3D64A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D490B4131C6EB07800A3D64A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D490B4271C6EB07800A3D64A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D490B4321C6EB07800A3D64A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D490B40D1C6EB07800A3D64A = {
+			isa = PBXGroup;
+			children = (
+				D490B4181C6EB07800A3D64A /* Pivot Pong */,
+				D490B42D1C6EB07800A3D64A /* Pivot PongTests */,
+				D490B4381C6EB07800A3D64A /* Pivot PongUITests */,
+				D490B4171C6EB07800A3D64A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D490B4171C6EB07800A3D64A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D490B4161C6EB07800A3D64A /* Pivot Pong.app */,
+				D490B42A1C6EB07800A3D64A /* Pivot PongTests.xctest */,
+				D490B4351C6EB07800A3D64A /* Pivot PongUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D490B4181C6EB07800A3D64A /* Pivot Pong */ = {
+			isa = PBXGroup;
+			children = (
+				D490B4191C6EB07800A3D64A /* AppDelegate.swift */,
+				D490B41B1C6EB07800A3D64A /* ViewController.swift */,
+				D490B41D1C6EB07800A3D64A /* Main.storyboard */,
+				D490B4201C6EB07800A3D64A /* Assets.xcassets */,
+				D490B4221C6EB07800A3D64A /* LaunchScreen.storyboard */,
+				D490B4251C6EB07800A3D64A /* Info.plist */,
+			);
+			path = "Pivot Pong";
+			sourceTree = "<group>";
+		};
+		D490B42D1C6EB07800A3D64A /* Pivot PongTests */ = {
+			isa = PBXGroup;
+			children = (
+				D490B42E1C6EB07800A3D64A /* Pivot_PongTests.swift */,
+				D490B4301C6EB07800A3D64A /* Info.plist */,
+			);
+			path = "Pivot PongTests";
+			sourceTree = "<group>";
+		};
+		D490B4381C6EB07800A3D64A /* Pivot PongUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D490B4391C6EB07800A3D64A /* Pivot_PongUITests.swift */,
+				D490B43B1C6EB07800A3D64A /* Info.plist */,
+			);
+			path = "Pivot PongUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D490B4151C6EB07800A3D64A /* Pivot Pong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D490B43E1C6EB07800A3D64A /* Build configuration list for PBXNativeTarget "Pivot Pong" */;
+			buildPhases = (
+				D490B4121C6EB07800A3D64A /* Sources */,
+				D490B4131C6EB07800A3D64A /* Frameworks */,
+				D490B4141C6EB07800A3D64A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pivot Pong";
+			productName = "Pivot Pong";
+			productReference = D490B4161C6EB07800A3D64A /* Pivot Pong.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D490B4291C6EB07800A3D64A /* Pivot PongTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D490B4411C6EB07800A3D64A /* Build configuration list for PBXNativeTarget "Pivot PongTests" */;
+			buildPhases = (
+				D490B4261C6EB07800A3D64A /* Sources */,
+				D490B4271C6EB07800A3D64A /* Frameworks */,
+				D490B4281C6EB07800A3D64A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D490B42C1C6EB07800A3D64A /* PBXTargetDependency */,
+			);
+			name = "Pivot PongTests";
+			productName = "Pivot PongTests";
+			productReference = D490B42A1C6EB07800A3D64A /* Pivot PongTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D490B4341C6EB07800A3D64A /* Pivot PongUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D490B4441C6EB07800A3D64A /* Build configuration list for PBXNativeTarget "Pivot PongUITests" */;
+			buildPhases = (
+				D490B4311C6EB07800A3D64A /* Sources */,
+				D490B4321C6EB07800A3D64A /* Frameworks */,
+				D490B4331C6EB07800A3D64A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D490B4371C6EB07800A3D64A /* PBXTargetDependency */,
+			);
+			name = "Pivot PongUITests";
+			productName = "Pivot PongUITests";
+			productReference = D490B4351C6EB07800A3D64A /* Pivot PongUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D490B40E1C6EB07800A3D64A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Josh Franklin";
+				TargetAttributes = {
+					D490B4151C6EB07800A3D64A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					D490B4291C6EB07800A3D64A = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D490B4151C6EB07800A3D64A;
+					};
+					D490B4341C6EB07800A3D64A = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D490B4151C6EB07800A3D64A;
+					};
+				};
+			};
+			buildConfigurationList = D490B4111C6EB07800A3D64A /* Build configuration list for PBXProject "Pivot Pong" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D490B40D1C6EB07800A3D64A;
+			productRefGroup = D490B4171C6EB07800A3D64A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D490B4151C6EB07800A3D64A /* Pivot Pong */,
+				D490B4291C6EB07800A3D64A /* Pivot PongTests */,
+				D490B4341C6EB07800A3D64A /* Pivot PongUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D490B4141C6EB07800A3D64A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D490B4241C6EB07800A3D64A /* LaunchScreen.storyboard in Resources */,
+				D490B4211C6EB07800A3D64A /* Assets.xcassets in Resources */,
+				D490B41F1C6EB07800A3D64A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D490B4281C6EB07800A3D64A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D490B4331C6EB07800A3D64A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D490B4121C6EB07800A3D64A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D490B41C1C6EB07800A3D64A /* ViewController.swift in Sources */,
+				D490B41A1C6EB07800A3D64A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D490B4261C6EB07800A3D64A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D490B42F1C6EB07800A3D64A /* Pivot_PongTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D490B4311C6EB07800A3D64A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D490B43A1C6EB07800A3D64A /* Pivot_PongUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D490B42C1C6EB07800A3D64A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D490B4151C6EB07800A3D64A /* Pivot Pong */;
+			targetProxy = D490B42B1C6EB07800A3D64A /* PBXContainerItemProxy */;
+		};
+		D490B4371C6EB07800A3D64A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D490B4151C6EB07800A3D64A /* Pivot Pong */;
+			targetProxy = D490B4361C6EB07800A3D64A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D490B41D1C6EB07800A3D64A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D490B41E1C6EB07800A3D64A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D490B4221C6EB07800A3D64A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D490B4231C6EB07800A3D64A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D490B43C1C6EB07800A3D64A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D490B43D1C6EB07800A3D64A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D490B43F1C6EB07800A3D64A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pivot Pong/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Franklin.Pivot-Pong";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D490B4401C6EB07800A3D64A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pivot Pong/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Franklin.Pivot-Pong";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D490B4421C6EB07800A3D64A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Pivot PongTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Franklin.Pivot-PongTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pivot Pong.app/Pivot Pong";
+			};
+			name = Debug;
+		};
+		D490B4431C6EB07800A3D64A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Pivot PongTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Franklin.Pivot-PongTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pivot Pong.app/Pivot Pong";
+			};
+			name = Release;
+		};
+		D490B4451C6EB07800A3D64A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Pivot PongUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Franklin.Pivot-PongUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Pivot Pong";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D490B4461C6EB07800A3D64A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Pivot PongUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Franklin.Pivot-PongUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Pivot Pong";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D490B4111C6EB07800A3D64A /* Build configuration list for PBXProject "Pivot Pong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D490B43C1C6EB07800A3D64A /* Debug */,
+				D490B43D1C6EB07800A3D64A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D490B43E1C6EB07800A3D64A /* Build configuration list for PBXNativeTarget "Pivot Pong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D490B43F1C6EB07800A3D64A /* Debug */,
+				D490B4401C6EB07800A3D64A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D490B4411C6EB07800A3D64A /* Build configuration list for PBXNativeTarget "Pivot PongTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D490B4421C6EB07800A3D64A /* Debug */,
+				D490B4431C6EB07800A3D64A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D490B4441C6EB07800A3D64A /* Build configuration list for PBXNativeTarget "Pivot PongUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D490B4451C6EB07800A3D64A /* Debug */,
+				D490B4461C6EB07800A3D64A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D490B40E1C6EB07800A3D64A /* Project object */;
+}
