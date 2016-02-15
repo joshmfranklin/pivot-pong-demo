@@ -52,7 +52,7 @@
 		D490B4391C6EB07800A3D64A /* Pivot_PongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pivot_PongUITests.swift; sourceTree = "<group>"; };
 		D490B43B1C6EB07800A3D64A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D490B4471C6ECDA800A3D64A /* IBAnimatable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IBAnimatable.framework; path = "Pods/../build/Debug-iphoneos/IBAnimatable.framework"; sourceTree = "<group>"; };
-		D490B4491C6FD3E300A3D64A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
+		D490B4491C6FD3E300A3D64A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "/Users/joshfranklin/workspace/Pivot Pong/Pivot Pong/Assets.xcassets"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
